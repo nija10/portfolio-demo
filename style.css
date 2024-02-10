@@ -8,6 +8,32 @@
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  .img-main {
+    display: none;
+  }
+
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .content-heading {
+    text-align: center;
+  }
+  .content-para {
+    text-align: center;
+  }
+  .content-button {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .yogurt-heading {
+    margin-top: -10px;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -62,7 +88,7 @@ h4 {
 }
 
 a:hover {
-  color: #0a58ca;
+  text-shadow: 5px 5px 5px #000;
 }
 
 .container {
@@ -77,4 +103,5 @@ a:hover {
 
 .link:hover {
   text-decoration: underline;
+  text-shadow: none;
 }
